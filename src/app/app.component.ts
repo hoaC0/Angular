@@ -8,5 +8,5 @@ import { RouterOutlet } from '@angular/router';
 })
 
 export class AppComponent {
-  title = 'Hello World';
+  title = 'Task Tracker';
 }
