@@ -1,0 +1,25 @@
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.add-text {
+    width: 25rem;
+    height: 2.5rem;
+    border: 2px solid black;
+    border-radius: 30px;
+
+    
+}
+
+.add-text::placeholder { /* styling for placeholder in input */
+    color: #b0b0b0;
+    font-size: 1.2rem;
+}
+
+.add {
+
+}
