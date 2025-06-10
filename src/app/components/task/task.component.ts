@@ -8,4 +8,8 @@ import { Component } from '@angular/core';
 })
 export class TaskComponent {
 
+onClick() { // func for click event
+  console.log("CLICKED!!");
+}
+
 }
