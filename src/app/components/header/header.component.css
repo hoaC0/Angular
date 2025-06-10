@@ -10,6 +10,7 @@ header {
 h1 {
     margin: 15px;
     font: 300;
+    cursor: pointer;
 }
 
 ul {
@@ -29,6 +30,5 @@ a {
 }
 
 a:hover {
-    transition: font-weight 0.25s ease-in-out;
     font-weight: bolder;
 }
