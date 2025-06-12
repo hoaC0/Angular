@@ -73,7 +73,7 @@
 }
 
 .task {
-
+    width: 100%;
     
     justify-content: space-between;
     align-items: center;
@@ -81,10 +81,9 @@
 
     
     
-    padding: 1rem 1.5rem;
     font-size: 1.2rem;
 
-    margin: 0.25rem 0;
+    margin: 1;
 }
 
 .text {
