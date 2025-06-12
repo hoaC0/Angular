@@ -94,3 +94,7 @@
     font-size: medium;
     text-align: left;
 }
+
+input[type="checkbox"] {
+    border: 5px solid black;
+}
