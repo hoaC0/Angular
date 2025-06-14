@@ -1,6 +1,6 @@
 // ist wie ein modell
 export interface Task {
-    id?:number;
+    id?: number;
     title: string;
     text: string;
     date: string;
