@@ -1,7 +1,8 @@
-
+// ist wie ein modell
 export interface Task {
     id:number;
     title: string;
     text: string;
+    date: string;
     reminder: boolean;
 }
