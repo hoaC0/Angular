@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { TASKS } from '../../mock-tasks'; // import mock tasks
+import { Task } from '../../Task'; // import model ( or interface )
 
 @Component({
   selector: 'app-task',
