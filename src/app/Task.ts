@@ -1,6 +1,6 @@
 // ist wie ein modell
 export interface Task {
-    id?: number;
+    id?: number; // ? means optional
     title: string;
     text: string;
     date: string;
