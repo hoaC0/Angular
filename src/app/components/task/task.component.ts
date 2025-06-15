@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { TASKS } from '../../mock-tasks'; // import mock tasks
 import { Task } from '../../Task'; // import model ( or interface )
+import { NgFor } from '@angular/common';
 
 @Component({
   selector: 'app-task',
-  imports: [],
+  imports: [NgFor],
   templateUrl: './task.component.html',
   styleUrl: './task.component.css'
 })
