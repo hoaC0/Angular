@@ -124,6 +124,6 @@ input[type="checkbox"]:checked::after {
 .date {
     width: 100%;
 
-    font-size: .75rem;
+    font-size: .8rem;
     color: gray
 }
