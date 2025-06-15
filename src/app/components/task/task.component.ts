@@ -10,11 +10,10 @@ import { Task } from '../../Task'; // import model ( or interface )
 })
 export class TaskComponent {
 
+tasks: Task[] = TASKS;
+
 onClick() { // func for click event
   console.log("CLICKED!!"); // log
-
-  tasks:  Task[] = TASKS;
-  
 }
 
 }
