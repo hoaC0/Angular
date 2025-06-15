@@ -1,4 +1,4 @@
-import { Task } from './Task'; //import model ( or interface )
+import { Task } from './Task'; // import model ( or interface )
 
 export const TASKS: Task[] = [
     {
