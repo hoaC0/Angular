@@ -126,4 +126,5 @@ input[type="checkbox"]:checked::after {
 
     font-size: .8rem;
     color: gray
+    
 }
