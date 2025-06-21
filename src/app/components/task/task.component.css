@@ -143,3 +143,11 @@ input[type="checkbox"]:checked::after {
 
     transition: all 0.3s ease-in-out; /* smooth transition for hover effect */
 }
+
+.delete:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+
+    transition: all 0.3s ease-in-out;
+}
