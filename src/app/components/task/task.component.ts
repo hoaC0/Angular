@@ -10,15 +10,12 @@ import { NgFor } from '@angular/common';
   styleUrl: './task.component.css'
 })
 export class TaskComponent {
-isChecked: boolean = false; // set false default
-onChecked() {
-  if (this.isChecked) {
+
+onCheckboxChange(event: any) {
+  if (event.target.checked) {
     console.log("Checkbox is checked");
-  } else {
-    console.log("Checkbox is not checked");
   }
 }
-
 tasks: Task[] = taskData;
 
 onClick() { // func for click event
