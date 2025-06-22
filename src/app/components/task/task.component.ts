@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { TASKS } from '../../mock-tasks'; // import mock tasks
+import { taskData } from '../../../../data.json'; // import tasks from JSON file
 import { Task } from '../../Task'; // import model ( or interface )
 import { NgFor } from '@angular/common';
 
@@ -11,7 +11,7 @@ import { NgFor } from '@angular/common';
 })
 export class TaskComponent {
 
-tasks: Task[] = TASKS;
+tasks: Task[] = taskData;
 
 onClick() { // func for click event
   console.log("CLICKED!!"); // log
