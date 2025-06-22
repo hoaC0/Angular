@@ -4,7 +4,22 @@
             "id": 1,
             "title": "Task 1",
             "text": "Hello World",
-            "date": true,
+            "date": "10.10.2005",
+            "reminder": true
+        }
+        ,
+        {
+            "id": 2,
+            "title": "Task 2",
+            "text": "Hello World",
+            "date": "10.10.2005",
+            "reminder": false
+        },
+        {
+            "id": 3,
+            "title": "Task 3",
+            "text": "Hello World",
+            "date": "10.10.2005",
             "reminder": true
         }
     ]
