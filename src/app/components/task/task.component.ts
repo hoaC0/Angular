@@ -10,6 +10,13 @@ import { NgFor } from '@angular/common';
   styleUrl: './task.component.css'
 })
 export class TaskComponent {
+isChecked: boolean = false; // set false default
+onChecked() {
+  if (this.isChecked) {
+
+  }
+  
+}
 
 tasks: Task[] = taskData;
 
