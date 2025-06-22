@@ -14,8 +14,11 @@ export class TaskComponent {
 onCheckboxChange(event: any) {
   if (event.target.checked) {
     console.log("Checkbox is checked");
+  } else {
+    console.log("Checkbox is unchecked");
   }
 }
+
 tasks: Task[] = taskData;
 
 onClick() { // func for click event
