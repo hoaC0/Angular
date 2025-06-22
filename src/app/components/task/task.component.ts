@@ -14,8 +14,9 @@ isChecked: boolean = false; // set false default
 onChecked() {
   if (this.isChecked) {
     console.log("Checkbox is checked");
+  } else {
+    console.log("Checkbox is not checked");
   }
-
 }
 
 tasks: Task[] = taskData;
