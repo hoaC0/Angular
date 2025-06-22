@@ -13,9 +13,9 @@ export class TaskComponent {
 isChecked: boolean = false; // set false default
 onChecked() {
   if (this.isChecked) {
-
+    console.log("Checkbox is checked");
   }
-  
+
 }
 
 tasks: Task[] = taskData;
