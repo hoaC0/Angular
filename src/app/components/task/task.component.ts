@@ -2,17 +2,24 @@ import { Component } from '@angular/core';
 import { taskData } from '../../../../data.json'; // import tasks from JSON file
 import { Task } from '../../Task'; // import model ( or interface )
 import { NgFor } from '@angular/common';
+import { FormsModule } from '@angular/forms'; // import FormsModule for two-way data binding
 
 @Component({
   selector: 'app-task',
-  imports: [NgFor],
+  imports: [NgFor, FormsModule],
   templateUrl: './task.component.html',
   styleUrl: './task.component.css'
 })
 export class TaskComponent {
 
-add(){
-  
+inputTitle: string = '';
+
+add() {
+  if(this.inputTitle) {
+    this.tasks.push({
+      title: this.inputTitle
+    })
+  }
 }
 onClick() { // func for click event
   this.add();
