@@ -10,8 +10,12 @@ import { NgFor } from '@angular/common';
   styleUrl: './task.component.css'
 })
 export class TaskComponent {
+
+add(){
+  
+}
 onClick() { // func for click event
-  console.log("CLICKED!!"); // log
+
 }
 
 
