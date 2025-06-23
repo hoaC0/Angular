@@ -20,7 +20,7 @@ add() {
     this.tasks.push({
       title: this.inputTitle,
       text: this.inputText,
-      date: Date.now(),
+      date: Date.now().toString(), // converts current date to string ELSE wont work!!!
     })
   }
 }
