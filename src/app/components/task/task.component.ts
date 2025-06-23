@@ -11,6 +11,7 @@ import { NgFor } from '@angular/common';
 })
 export class TaskComponent {
 
+tasks: Task[] = taskData;
 add(){
   
 }
@@ -18,8 +19,6 @@ onClick() { // func for click event
 
 }
 
-
-tasks: Task[] = taskData;
 
 onCheckboxChange(event: any) {
   if (event.target.checked) {
