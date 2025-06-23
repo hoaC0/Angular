@@ -10,10 +10,6 @@ import { NgFor } from '@angular/common';
   styleUrl: './task.component.css'
 })
 export class TaskComponent {
-
-
-
-
 onClick() { // func for click event
   console.log("CLICKED!!"); // log
 }
@@ -28,4 +24,5 @@ onCheckboxChange(event: any) {
     console.log("Checkbox is unchecked");
   }
 }
+
 }
