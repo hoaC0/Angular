@@ -11,6 +11,16 @@ import { NgFor } from '@angular/common';
 })
 export class TaskComponent {
 
+
+
+
+onClick() { // func for click event
+  console.log("CLICKED!!"); // log
+}
+
+
+tasks: Task[] = taskData;
+
 onCheckboxChange(event: any) {
   if (event.target.checked) {
     console.log("Checkbox is checked");
@@ -18,12 +28,4 @@ onCheckboxChange(event: any) {
     console.log("Checkbox is unchecked");
   }
 }
-
-tasks: Task[] = taskData;
-
-onClick() { // func for click event
-  console.log("CLICKED!!"); // log
-}
-
-
 }
