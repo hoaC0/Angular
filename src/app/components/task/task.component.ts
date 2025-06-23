@@ -13,11 +13,14 @@ import { FormsModule } from '@angular/forms'; // import FormsModule for two-way 
 export class TaskComponent {
 
 inputTitle: string = '';
+inputText: string = '';
 
 add() {
-  if(this.inputTitle) {
+  if(this.inputTitle, this.inputText) {
     this.tasks.push({
-      title: this.inputTitle
+      title: this.inputTitle,
+      text: this.inputText,
+      date: Date.now(),
     })
   }
 }
