@@ -3,7 +3,7 @@ import { taskData } from '../../../../data.json'; // import tasks from JSON file
 import { Task } from '../../Task'; // import model ( or interface )
 import { NgFor } from '@angular/common';
 import { FormsModule } from '@angular/forms'; // import FormsModule for two-way data binding
-
+import * as fs from 'fs';
 @Component({
   selector: 'app-task',
   imports: [NgFor, FormsModule],
