@@ -1,13 +1,16 @@
-.task-sub {
+.task-add-container {
+    display: flex;
     width: 100%;
 
-    display: inline-flex; /* allows elements to be in one line */
+    
     justify-content: center;
     align-items: center;
     
 
     margin-top: 10rem;
 }
+
+
 
 .add-text {
     width: 25rem;
