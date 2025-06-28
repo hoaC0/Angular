@@ -7,7 +7,7 @@
 }
 
 .add-title-container {
-    margin-bottom: 1rem;
+    margin-bottom: .5rem;
 }
 
 .add-date-container {
@@ -29,7 +29,7 @@
 }
 
 .add-text {
-    width: 25rem;
+    width: 32rem;
     height: 2.5rem;
 
     border: 2px solid black;
