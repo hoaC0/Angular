@@ -5,6 +5,8 @@ import { NgFor } from '@angular/common';
 import { FormsModule } from '@angular/forms'; // import FormsModule for two-way data binding
 import * as fs from 'fs';
 import { TASKS } from '../../mock-tasks';
+import { CookieService } from 'ngx-cookie-service'; // adds cookie service
+
 @Component({
   selector: 'app-task',
   imports: [NgFor, FormsModule],
