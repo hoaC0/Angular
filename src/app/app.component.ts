@@ -3,6 +3,8 @@ import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from "./components/header/header.component";
 import { TaskComponent } from "./components/task/task.component";
 
+import { NgcCookieConsentModule, NgcCookieConsentConfig } from 'ngx-cookieconsent'; // cookie consent modul
+
 // Komponenten muessen importiert werden um verwenden werden zu koennen ( wie React )
 
 @Component({
@@ -12,6 +14,10 @@ import { TaskComponent } from "./components/task/task.component";
   imports: [HeaderComponent, TaskComponent]
 })
 
+
+
 export class AppComponent {
   title = 'Task Tracker';
+
+
 }
