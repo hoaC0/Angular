@@ -4,6 +4,7 @@ import { Task } from '../../Task'; // import model ( or interface )
 import { NgFor } from '@angular/common';
 import { FormsModule } from '@angular/forms'; // import FormsModule for two-way data binding
 import * as fs from 'fs';
+import { TASKS } from '../../mock-tasks';
 @Component({
   selector: 'app-task',
   imports: [NgFor, FormsModule],
@@ -29,7 +30,7 @@ onClick() { // func for click event
 }
 
 
-tasks: Task[] = taskData;
+tasks: Task[] = TASKS;
 
 onCheckboxChange(event: any) {
   if (event.target.checked) {
