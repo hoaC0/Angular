@@ -11,7 +11,7 @@ import { NgcCookieConsentModule, NgcCookieConsentConfig } from 'ngx-cookieconsen
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
-  imports: [HeaderComponent, TaskComponent]
+  imports: [HeaderComponent, TaskComponent] // !!! imports hier ( header etc )
 })
 
 
